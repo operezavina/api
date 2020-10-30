@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  KEY = 's3cr3t'
+  KEY = 'b5e027a6e9e8c4d18fc43ccde1e4b72e'
 
   def encode_token(payload)
     JWT.encode(payload, KEY)
