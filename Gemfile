@@ -9,7 +9,9 @@ gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rqrcode'
 gem 'rack-cors'
-gem 'fast_jsonapi', '~> 1.5'
+gem 'bcrypt', '~> 3.1.7'
+gem 'jwt'
+
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
