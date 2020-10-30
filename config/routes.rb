@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   end
   resources :users
   post "/login", to: "users#login"
+  get "/confirmation/:id", to: "product_confirmation#sale"
 end
