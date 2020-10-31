@@ -11,6 +11,7 @@ gem 'rqrcode'
 gem 'rack-cors'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
+gem 'pundit', '~> 2.0'
 
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
