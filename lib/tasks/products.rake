@@ -4,43 +4,35 @@ namespace :products do |ns|
     PRODUCTS = [
       {
         id: 1,
-        name: "Gorra Gris",
-        size: "S"
+        name: "Gorra Gris"
       },
       {
         id: 2,
-        name: "Gorra Cafe",
-        size: "S"
+        name: "Gorra Cafe"
       },
       {
         id: 3,
-        name: "Gorra Amarilla",
-        size: "S"
+        name: "Gorra Amarilla"
       },
       {
         id: 4,
-        name: "Gorra Roja",
-        size: "S"
+        name: "Gorra Roja"
       },
       {
         id: 5,
-        name: "Gorra Gris",
-        size: "L"
+        name: "Gorra Gris"
       },
       {
         id: 6,
-        name: "Gorra Cafe",
-        size: "L"
+        name: "Gorra Cafe"
       },
       {
         id: 7,
-        name: "Gorra Amarilla",
-        size: "L"
+        name: "Gorra Amarilla"
       },
       {
         id: 8,
-        name: "Gorra Roja",
-        size: "L"
+        name: "Gorra Roja"
       },
     ]
 

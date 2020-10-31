@@ -1,9 +1,13 @@
 class ProductDetailsController < ApplicationController
   def index
-    render json: ProductDetail.all
+    render json: ProductOption.all.pluck(:id, :name)
   end
 
   def show
-    render json: ProductDetail.find(params[:id])
+    puts params
+    render json: @product_detail if @product_detail = ProductDetail.where(product_id: params[:id])
+    raise unless @product_detail
+  rescue => e
+    render json: :not_found
   end
 end
