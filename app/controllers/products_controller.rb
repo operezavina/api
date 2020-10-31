@@ -4,6 +4,6 @@ class ProductsController < ApplicationController
   end
 
   def index
-    render json: Product.all.pluck(:id, :name)
+    render json: Product.all
   end
 end
